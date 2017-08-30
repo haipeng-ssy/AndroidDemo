@@ -6,8 +6,7 @@
 // 图片大小缩放和合并
 
 
-public static Bitmap transImage(String fromFile,int width, int height)
-    {
+public static Bitmap transImage(String fromFile,int width, int height) {
             Bitmap bitmap = BitmapFactory.decodeFile(fromFile);
             int bitmapWidth = bitmap.getWidth();
             int bitmapHeight = bitmap.getHeight();
